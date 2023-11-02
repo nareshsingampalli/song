@@ -1,0 +1,3 @@
+2023-11-02 05:26:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SONG" not found; SQL statement:
+select * from song [42102-214]
