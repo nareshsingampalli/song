@@ -1,8 +1,8 @@
 #surefire
-#Thu Nov 02 06:43:43 UTC 2023
+#Thu Nov 02 06:56:31 UTC 2023
 tc.1=com.example.song.SongControllerTests
 tc.0=com.example.song.SmokeTest
-pluginPid=15399
+pluginPid=16923
 classPathUrl.0=/home/nxtwave/song/target/test-classes
 classPathUrl.1=/home/nxtwave/song/target/classes
 classPathUrl.2=/home/nxtwave/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.8/spring-boot-starter-web-2.7.8.jar

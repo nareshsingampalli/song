@@ -30,6 +30,7 @@ public class SongController {
     public Song updateSong(@RequestBody Song song, @PathVariable("songId") int songId) {
         return songService.updateSong(song, songId);
     }
+
     @DeleteMapping("/songs/{songId}")
     public void deleteSong(@PathVariable("songId") int songId) {
         songService.deleteSong(songId);

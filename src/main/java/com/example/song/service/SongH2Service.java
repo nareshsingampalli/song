@@ -47,11 +47,10 @@ public class SongH2Service implements SongRepository {
 			db.update("update playlist set songName = ? where songid = ?", song.getSongName(), songId);
 		if (song.getLyricist() != null)
 			db.update("update playlist set lyricist = ? where songid= ?", song.getLyricist(), songId);
-
 		if (song.getSinger() != null)
 			db.update("update playlist set singer =? where songid = ?", song.getSinger(), songId);
 		if (song.getMusicDirector() != null)
-			db.update("update playlist set musicdirector = ? where sonid = ?", song.getMusicDirector(), songId);
+			db.update("update playlist set musicdirector = ? where songid = ?", song.getMusicDirector(), songId);
 		return getSongById(songId);
 	}
 
